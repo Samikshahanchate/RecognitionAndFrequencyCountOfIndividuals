@@ -149,7 +149,7 @@ int main() {
 				s2History[frameCounter] = found;
 			}
 			else if (prediction == 3){
-				rectangle(original, face_i, CV_RGB(0, 0, 255), 1);
+				rectangle(original, face_i, CV_RGB(225, 0, 255), 1);
 
 				if (!isFaceFound(s3History))
 					s3Freq++;
